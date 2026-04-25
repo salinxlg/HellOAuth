@@ -1,0 +1,26 @@
+{
+  "name": "helloauth",
+  "version": "7.1.3",
+  "description": "Hello ID OAuth Service es un SDK de autenticación ligero para aplicaciones web, diseñado para proporcionar flujos de inicio de sesión OAuth seguros, autenticación mediante ventanas emergentes, integración basada en eventos e intercambio asíncrono de tokens con una implementación simple y amigable para desarrolladores.",
+  "main": "dexly.client.helloid.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salinxlg/helloauth.git"
+  },
+  "keywords": ["oauth","authentication","oauth2","login","sdk","javascript","webauth","popup-auth","token-exchange","auth-service","security","dexly","helloid","web-sdk","frontend-auth","identity","oauth-client","browser-auth","event-driven","async-auth"],
+  "author": {
+    "name": "Dexly Studios LLC",
+    "email": "roger@dexly.space",
+    "url": "https://dexly.space"
+  },
+"publisher": "Dexly Studios LLC",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/salinxlg/helloauth/issues"
+  },
+  "homepage": "https://github.com/salinxlg/helloauth#readme"
+}
