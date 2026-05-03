@@ -1,6 +1,6 @@
 {
   "name": "helloauth",
-  "version": "7.1.3",
+  "version": "7.1.4",
   "description": "Hello ID OAuth Service es un SDK de autenticación ligero para aplicaciones web, diseñado para proporcionar flujos de inicio de sesión OAuth seguros, autenticación mediante ventanas emergentes, integración basada en eventos e intercambio asíncrono de tokens con una implementación simple y amigable para desarrolladores.",
   "main": "dexly.client.helloid.js",
   "directories": {

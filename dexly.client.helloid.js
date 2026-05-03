@@ -7,7 +7,7 @@ export class helloid {
 
     static init() {
 
-        this.ready = fetch('assx/com.manifest.helloid.dexly.json')
+        this.ready = fetch(new URL('assx/com.manifest.helloid.dexly.json', import.meta.url))
             .then(res => res.json())
             .then(res => {
 
@@ -254,11 +254,11 @@ export class helloid {
         return{
 
             mode: 'com.dex.platform',
-            version: '7.1.3',
+            version: '7.1.4',
             developer: 'Roger Salinas',
             vendor: 'Dexly Studios LLC',
             build: '2026.04.20',
-            dexagent: 'com.dex.dexagent/7.1.3 (cxi=true; env=production; arch=x64; platform=web; vendor=Dexly Studios LLC)',
+            dexagent: 'com.dex.dexagent/7.1.4 (cxi=true; env=production; arch=x64; platform=web; vendor=Dexly Studios LLC)',
             packagename: 'com.dexly.helloid',
             copyright: '© 2026 Dexly Studios LLC.',
             dxacompilation: '2026042001•2024111601',
