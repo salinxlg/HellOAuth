@@ -232,7 +232,7 @@ export class helloid {
 
         try {
 
-            const res = await fetch('assx/com.endpoint.php', {
+            const res = await fetch(new URL('assx/com.endpoint.php', import.meta.url), {
                 method: 'POST',
                 headers: {
                     "content-type": "application/x-www-form-urlencoded"
@@ -254,11 +254,11 @@ export class helloid {
         return{
 
             mode: 'com.dex.platform',
-            version: '7.1.4',
+            version: '7.1.5',
             developer: 'Roger Salinas',
             vendor: 'Dexly Studios LLC',
             build: '2026.04.20',
-            dexagent: 'com.dex.dexagent/7.1.4 (cxi=true; env=production; arch=x64; platform=web; vendor=Dexly Studios LLC)',
+            dexagent: 'com.dex.dexagent/7.1.5 (cxi=true; env=production; arch=x64; platform=web; vendor=Dexly Studios LLC)',
             packagename: 'com.dexly.helloid',
             copyright: '© 2026 Dexly Studios LLC.',
             dxacompilation: '2026042001•2024111601',

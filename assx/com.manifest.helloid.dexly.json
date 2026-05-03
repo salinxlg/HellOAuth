@@ -14,11 +14,11 @@
     "product":{
 
         "name": "Hello ID OAuth Services",
-        "version": "7.1.4",
+        "version": "7.1.5",
         "developer": "Roger Salinas",
         "packagename": "com.dexly.helloid",
         "vendor": "Dexly Studios LLC",
-        "useragent": "com.dex.dexagent/7.1.4 (cxi=true; env=production; arch=x64; platform=web; vendor=Dexly LLC)",
+        "useragent": "com.dex.dexagent/7.1.5 (cxi=true; env=production; arch=x64; platform=web; vendor=Dexly LLC)",
         "copyright":"© 2026 Dexly Studios LLC.", 
         "dxa-compilation": "2026042001•2024111601",
         "fingerprint": "CA:F6:84:94:47:2B:30:AB:BB:9D:E3:40:03:8B:A6:DC:2B:B7:AF:9D:71:32:C5:12:A6:1D:36:1D:9B:AC:BD:3D"
